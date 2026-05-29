@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unsupervised Deep Multi-Graph Matching and Cycle-Consistency for Atlas-to-Worm Annotation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #111;
+  }
+  h2 {
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .section img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .section-reverse {
+    flex-direction: row-reverse;
+  }
+  .section-reverse img {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .text {
+    flex: 1;
+  }
+  .publications-list {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #333;
+    border-radius: 4px;
+  }
+  .publications-list p {
+    margin-bottom: 15px;
+  }
+  .publications-list p:last-child {
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<a href="../projects.html">&lt;- back to Projects</a>
+
+<h1>Unsupervised Deep Multi-Graph Matching and Cycle-Consistency for Atlas-to-Worm Annotation</h1>
+
+<div class="section">
+  <img src="imgs/worms-to-atlas-goal.png" alt="Worms to Atlas Goal">
+  <div class="text">
+    <h2>Project Goal</h2>
+    <p>
+      The goal of this project is to automate the annotation of microscopic images of <em>C. elegans</em> worms using an established biological atlas. Because of natural variability and imaging conditions, this requires matching a set of target worm images simultaneously to the atlas and to each other.
+    </p>
+  </div>
+</div>
+
+<div class="section section-reverse">
+  <img src="imgs/graph-matching.png" alt="Graph Matching Framework">
+  <div class="text">
+    <h2>Step 1: Unsupervised Deep Graph Matching</h2>
+    <p>
+      We represent the atlas and individual worms as graphs where nodes correspond to cells/nuclei and edges capture spatial relationships. We use deep neural networks to learn node and edge features directly from image data without explicit annotation labels, driven by custom geometric alignment losses.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <img src="imgs/multi-graph-matching.png" alt="Multi-Graph Matching">
+  <div class="text">
+    <h2>Step 2: Cycle-Consistent Multi-Graph Matching</h2>
+    <p>
+      Matching multiple worms independently to the atlas often yields contradictory results. We enforce <strong>cycle-consistency</strong>—meaning the composition of matchings along any closed loop of graphs must map a node back to itself. This allows correct annotation sharing across the population of images.
+    </p>
+  </div>
+</div>
+
+<div class="section section-reverse">
+  <img src="imgs/atlas-accuracy.png" alt="Atlas Accuracy Plot">
+  <div class="text">
+    <h2>Step 3: Scalable Combinatorial Optimization</h2>
+    <p>
+      Enforcing cycle-consistency over large scale imaging datasets leads to NP-hard optimization problems. We construct highly scalable mathematical programming algorithms based on Lagrangean decompositions and Max-Weight Independent Set formulations to handle hundreds of worm datasets efficiently.
+    </p>
+  </div>
+</div>
+
+<h2>Related Publications</h2>
+<div class="publications-list">
+  <p>
+    S. Kahl, O. Karg, B. Savchynskyy <br>
+    <b>Towards Optimizing Large-Scale Multi-Graph Matching in Bioimaging</b> <br>
+    <em>In CVPR 2025</em><br>
+    [<a href="../../publications/papers/Kahl_Towards_Optimizing_Large-Scale_Multi-Graph_Matching_in_Bioimaging_CVPR_2025_paper.pdf">Paper PDF</a>]
+    [<a href="../../publications/papers/Kahl_Towards_Optimizing_Large-Scale_CVPR_2025_supplemental.pdf">Supplemental</a>]
+    [<a href="https://github.com/vislearn/libmpopt/tree/main/mwis-mgm">Code</a>]
+  </p>
+
+  <p>
+    O. Karg, S. Stricker, C. Rother, S. Kahl, B. Savchynskyy <br>
+    <b>Cycle-Consistent Multi-Graph Matching for Self-Supervised Annotation of C. Elegans</b> <br>
+    <em>at WACV 2026</em><br>
+    [<a href="https://arxiv.org/pdf/2503.07348">Preprint</a>]
+  </p>
+
+  <p>
+    Siddharth Tourani, Carsten Rother, Muhammad Haris Khan, Bogdan Savchynskyy <br>
+    <b>Discrete Cycle-Consistency Based Unsupervised Deep Graph Matching</b><br>
+    <em>AAAI 2024</em><br>
+    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28332/28652">AAAI 2024 version</a>]
+    [<a href="https://arxiv.org/pdf/2307.08930">extended version</a>]
+    [<a href="https://github.com/skt9/clum-semantic-correspondence">code</a>]
+    [<a href="../../publications/papers/tourani-clum-aai24-poster.pdf">poster</a>]
+  </p>
+</div>
+
+</body>
+</html>

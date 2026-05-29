@@ -1,0 +1,7 @@
+@InProceedings{ShekhovtsovPersistencyCVPR2015,
+   Title                    = {Maximum Persistency via Iterative Relaxed Inference with Graphical Models},
+   Author                   = {Shekhovtsov, Alexander and Swoboda, Paul and Savchynskyy, Bogdan },
+   Booktitle                = {CVPR},
+   Year                     = {2015}
+}
+
