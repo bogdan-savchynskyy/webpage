@@ -1,165 +1,609 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>publications</title></head><body>
-<a href="../index.html">&lt;- back to the main page of Dr. Bogdan Savchynskyy</a><br>
+
+
+<?php
+$POPTpage = "http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html";
+?>
+
+<?php
+$CombiLPcode = "https://github.com/vislearn/combilp";
+?>
+
+<?php
+$CombiLPpage = "https://vislearn.github.io/combilp";
+?>
+
+<?php
+$Pose6DPage = "https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation";
+?>
+
+<?php
+$DiversityPage = "https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models";
+?>
+
+<?php
+$OpenGMPage = "http://hciweb2.iwr.uni-heidelberg.de/opengm/";
+?>
+
+<?php
+$knIRPScode = "https://github.com/pawelswoboda/LP_MP/";
+?>
+
+<?php
+$MPLPproject = "https://hci.iwr.uni-heidelberg.de/vislearn/people/sid/mplppp/";
+?>
+
+<?php
+$CellTrackingproject = "https://vislearn.github.io/libct/";
+?>
+
+<?php
+$FusionMovesproject = "https://vislearn.github.io/libmpopt/iccv2021";
+?>  
+  
+<?php
+$GraphMatchingBenchmarkproject = "https://vislearn.github.io/gmbench/";
+?>
+
+<?php
+$MWISproject = "https://vislearn.github.io/libmpopt/mwis2025/";
+?>
+
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>publications</title></head><body>
+  <a href="../Dr-Bogdan-Savchynskyy.html">&lt;- back to the main page of Dr. Bogdan Savchynskyy</a><br>
 <h1>Publications:</h1>
 
 2026:
 <ul>
-  <li>O. Karg, S. Stricker, C. Rother, S. Kahl, B. Savchynskyy <br>
-  <b>Cycle-Consistent Multi-Graph Matching for Self-Supervised Annotation of C. Elegans</b> <br>
-  <em>WACV 2026</em> [<a href="https://arxiv.org/pdf/2503.07348">preprint</a>]</li>
-  <li>M. Feiden, T. von Marcard, B. Savchynskyy <br>
-  <b>Online Video Depth Anything</b> <br>
-  <em>WACV 2026</em> [<a href="papers/feiden-2026-online-video-depth-anything-arxiv.pdf">preprint</a>]</li>
+  <li>
+    Johann-Friedrich Feiden, Tim K&uuml;chler, Denis Zavadski, Bogdan Savchynskyy, Carsten Rother<br>
+    <b>Online Video Depth Anything: Temporally-Consistent Depth Prediction with Low Memory Consumption
+  </b><br>
+    <em>at 3DV 2026</em>
+    [<a href="https://arxiv.org/pdf/2510.09182">Preprint</a>]
+    [<a href="https://www.youtube.com/watch?v=PFQRGusLS5k">Video-presentation, 10 min</a>]
+  </li>
+  <li>
+    Sebastian Stricker, Christoph Karg, Lisa Hutschenreiter, Dagmar Kainmueller, Bogdan Savchynskyy <br>
+    <b>Cycle-Consistent Multi-Graph Matching for Self-Supervised Annotation of C.Elegans 
+  </b><br>
+    <em>at WACV 2026 as <strong>oral</strong></em>
+    [<a href="https://arxiv.org/pdf/2503.07348">Preprint</a>]
+  </li>
 </ul>
+
 
 2025:
+<br>
+<br>
 <ul>
-  <li>S. Kahl, O. Karg, B. Savchynskyy <br>
-  <b>Towards Optimizing Large-Scale Multi-Graph Matching in Bioimaging</b> <br>
-  <em>CVPR 2025</em> [<a href="papers/Kahl_Towards_Optimizing_Large-Scale_Multi-Graph_Matching_in_Bioimaging_CVPR_2025_paper.pdf">pdf</a>] [<a href="papers/Kahl_Towards_Optimizing_Large-Scale_CVPR_2025_supplemental.pdf">supplemental</a>]</li>
-  <li>H. Dlask, B. Savchynskyy <br>
-  <b>Strict Complementary Slackness and Relative Interior Solutions for the Linear Programming Relaxation of Discrete Graphical Models</b> <br>
-  <em>JMLR 2025</em> [<a href="papers/dlask-savchynskyy-2025-Relative-Interior-Solution--arxiv-v4.pdf">pdf</a>]</li>
+  <li>
+    Max Kahl, Sebastian Stricker, Lisa Hutschenreiter, Florian Bernard, Carsten Rother, Bogdan Savchynskyy <br>
+    <b>Towards Optimizing Large-Scale Multi-Graph Matching in Bioimaging
+  </b><br>
+    <em>CVPR 2025</em>
+    [<a href="https://openaccess.thecvf.com/content/CVPR2025/html/Kahl_Towards_Optimizing_Large-Scale_Multi-Graph_Matching_in_Bioimaging_CVPR_2025_paper.html">CVPR 2025 version</a>]
+    [<a href="https://arxiv.org/pdf/2406.18215">Extended version</a>]
+    [<a href="https://github.com/vislearn/multi-matching-optimization">code</a>]
+  </li>
+  <li>
+  Tomas Dlask, Bogdan Savchynskyy <br>
+  <b>
+    <a href="https://link.springer.com/article/10.1007/s10472-025-09974-w">
+    Relative-Interior Solution for (Incomplete) Linear Assignment Problem with Applications to Quadratic Assignment Problem</a>
+</b><br>
+  <em>Annals of Mathematics and Artificial Intelligence</em>
+  [<a href="https://arxiv.org/pdf/2301.11201">preliminary version</a>]
+ </li>
+  <li>
+    Christoph Karg, Sebastian Stricker, Lisa Hutschenreiter, Bogdan Savchynskyy, Dagmar Kainmueller <br>
+    <b>Cycle-Consistent Multi-Graph Matching for Self-Supervised Annotation of C.Elegans 
+  </b><br>
+    <em>arXiv:2503.07348</em>
+    [<a href="https://arxiv.org/pdf/2503.07348">pdf</a>]
+  </li>
 </ul>
+
 
 2024:
+<br>
+<br>
 <ul>
-  <li>Siddharth Tourani, Carsten Rother, Muhammad Haris Khan, Bogdan Savchynskyy <br>
-  <b>Discrete Cycle-Consistency Based Unsupervised Deep Graph Matching </b><br>
-  <em>AAAI 2024</em>
-  [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28332/28652">AAAI 2024 version</a>]
-  [<a href="https://arxiv.org/pdf/2307.08930">extended version</a>]
-  [<a href="https://github.com/skt9/clum-semantic-correspondence">code</a>]
-  [<a href="papers/tourani-clum-aai24-poster.pdf">poster</a>]</li>
-  <li>S. Kahl, Paul Swoboda, B. Savchynskyy <br>
-  <b>Unlocking Partial Optimality for Large-Scale Multi-Graph Matching</b> <br>
-  <em>ArXiv 2024</em> [<a href="papers/Kahl-et-al-unlocking-OR-for-MGM-ArXiv2024.pdf">pdf</a>]</li>
-  <li>P. Haller, L. Zheng, B. Savchynskyy <br>
-  <b>A Primal-Dual Bregman-Sinkhorn Solver for the Maximum Weight Independent Set Problem</b> <br>
-  <em>ArXiv 2024</em> [<a href="papers/haller-bregman-sinkhorn-for-MWIS-2408.02086v2.pdf">pdf</a>]</li>
+  <li>
+    Stefan Haller, Bogdan Savchynskyy <br>
+    <b>A Bregman-Sinkhorn Algorithm for the Maximum Weight Independent Set Problem 
+  </b><br>
+    <em>arXiv:2408.02086</em>
+    [<a href="https://arxiv.org/pdf/2408.02086">pdf</a>]
+    [<a href=https://vislearn.github.io/libmpopt/mwis2025/>project page</a>]
+  </li>
+  <li>
+    Max Kahl, Sebastian Stricker, Lisa Hutschenreiter, Florian Bernard, Bogdan Savchynskyy <br>
+    <b>Unlocking the Potential of Operations Research for Multi-Graph Matching 
+  </b><br>
+    <em>arXiv:2406.18215</em>
+    [<a href="https://arxiv.org/pdf/2406.18215">pdf</a>]
+    [<a href="https://github.com/vislearn/multi-matching-optimization">code</a>]
+  </li>
+  <li>
+    Siddharth Tourani, Carsten Rother, Muhammad Haris Khan, Bogdan Savchynskyy <br>
+    <b>Discrete Cycle-Consistency Based Unsupervised Deep Graph Matching 
+  </b><br>
+    <em>AAAI 2024</em>
+    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28332/28652">AAAI 2024 version</a>]
+    [<a href="https://arxiv.org/pdf/2307.08930">extended version</a>]
+    [<a href="https://github.com/skt9/clum-semantic-correspondence">code</a>]
+    [<a href="../publications/papers/tourani-clum-aai24-poster.pdf">poster</a>]
+  </li>
 </ul>
+
+2023:
+<br>
+<br>
+<ul>
+
+<li>
+  Max Kahl, Bogdan Savchynskyy <br>
+  <b>Analysis and Generalization of the HiPPI Algorithm for Multi-Graph Matching 
+</b><br>
+  <em>Techreport 2023</em>
+  [<a href="../publications/papers/Kahl-Savchynskyy-Hippi-Report.pdf">pdf</a>]
+</li>
+
+
+<li>
+  Siddharth Tourani, Carsten Rother, Muhammad Haris Khan, Bogdan Savchynskyy <br>
+  <b>Discrete Cycle-Consistency Based Unsupervised Deep Graph Matching 
+</b><br>
+  <em>ArXiv:2307.08930</em>
+  [<a href="https://arxiv.org/pdf/2307.08930">pdf</a>]
+</li>
+
+<li>
+  Tomas Dlask, Bogdan Savchynskyy <br>
+  <b>Relative-Interior Solution for (Incomplete) Linear Assignment Problem with Applications to Quadratic Assignment Problem
+</b><br>
+  <em>ArXiv:2301.11201</em>
+  [<a href="https://arxiv.org/pdf/2301.11201">pdf</a>]
+</li>
+</ul>
+
 
 2022:
+<br>
+<br>
 <ul>
-  <li>Paul Haller, Paul Swoboda, and Bogdan Savchynskyy<br>
-  <b>A Comparative Study of Graph Matching Algorithms in Computer Vision</b> <br>
-  <em>ECCV 2022</em> [<a href="papers/Haller-eccv2022-comparative-study-of-GM-in-CV.pdf">pdf</a>]</li>
+<li>
+  S. Haller, L. Feineis, L.Hutschenreiter, C. Rother, D. Kainmueller, P. Swoboda, B. Savchynskyy <br>
+  <b>A Comparative Study of Graph Matching Algorithms in Computer Vision</b><br>
+  <em>ECCV 2022</em>
+  [<a href="https://arxiv.org/pdf/2207.00291.pdf">pdf</a>]
+  [<a href=https://vislearn.github.io/gmbench/>project page</a>]
+</li>  
+<li>
+  Paul Swoboda, Andrea Hornakova, Paul Roetzer, Bogdan Savchynskyy, Ahmed Abbas <br>
+  <b>Structured Prediction Problem Archive</b><br>
+  <em>ArXiv:2202.03574</em>
+  [<a href="https://arxiv.org/pdf/2202.03574">pdf</a>]
+</li>
 </ul>
 
-2021:
+2021:<br>
+<br>
 <ul>
-  <li>Stefan Hutschenreiter, Stefan Haller, Paul Swoboda, Carsten Rother, Paul Medvedev, Bogdan Savchynskyy<br>
-  <b>Fusion Moves for Graph Matching</b> <br>
-  <em>ICCV 2021</em> [<a href="papers/hutschenreiter-fusion-moves-iccv2021.pdf">pdf</a>] [<a href="papers/hutschenreiter-Fusion-Moves-poster-ICCV2021.pdf">poster</a>] [<a href="papers/hutschenreiter-Fusion-Moves-presentation-ICCV2021.pdf">presentation video</a>]</li>
+<li>
+  L.Hutschenreiter, S. Haller, L. Feineis, C. Rother, D. Kainmueller, B. Savchynskyy <br>
+  <b>Fusion Moves for Graph Matching</b><br>
+  <em>ICCV 2021 <strong>oral</strong></em>
+  [<a href="https://arxiv.org/pdf/2101.12085.pdf">pdf</a>]
+  [<a href=https://vislearn.github.io/libmpopt/iccv2021>project page</a>]
+  [<a href=/vislearn/HTML/people/bogdan/publications/papers/hutschenreiter-Fusion-Moves-presentation-ICCV2021.pdf>slides</a>]
+  [<a href=/vislearn/HTML/people/bogdan/publications/papers/hutschenreiter-Fusion-Moves-poster-ICCV2021.pdf>poster</a>]
+  
+</li>
 </ul>
 
-2020:
+2020:<br>
+<br>
 <ul>
-  <li>Siddharth Tourani, Alexander Shekhovtsov, Carsten Rother, Bogdan Savchynskyy<br>
-  <b>Taxonomy of Dual Block-Coordinate Ascent Methods for Discrete Energy Minimization</b> <br>
-  <em>AISTATS 2020</em> [<a href="papers/tourani-taxonomy-of-dual-BCA-methods-for-discrete-energy-minimization--AISTATS2020.pdf">pdf</a>]</li>
-  <li>Stefan Haller, Paul Swoboda, Bogdan Savchynskyy<br>
-  <b>A Primal-Dual Solver for Tracking-by-Assignment Paths</b> <br>
-  <em>AISTATS 2020</em> [<a href="papers/haller-primal-dual-solver-for-tracking-by-assignment-AISTATS2020.pdf">pdf</a>] [<a href="papers/haller-primal-dual-solver-for-tracking-by-assignment-AISTATS2020.mp4">video</a>]</li>
+<li>
+S. Haller, M. Prakash, L. Hutschenreiter, T. Pietzsch, C. Rother, F. Jug, P. Swoboda, B. Savchynskyy<br>
+<b>A primal-dual solver for large-scale tracking-by-assignment</b> <br>
+<em>AISTATS 2020</em>. 
+[<a href="../publications/papers/haller-primal-dual-solver-for-tracking-by-assignment-AISTATS2020.pdf">pdf</a>]
+[<a href=https://vislearn.github.io/libct/>Project website, code</a>]
+[<a href="https://slideslive.com/38930181/a-primaldual-solver-for-largescale-trackingbyassignment?ref=account-folder-52123-folders">video-presentation at AISTATS 2020</a>]
+[<a href="../publications/papers/haller-primal-dual-solver-for-tracking-by-assignment-AISTATS2020.mp4">video-presentation.mp4</a>]
+</li>
+
+<li>
+S. Tourani, A. Shekhovtsov, C. Rother, B. Savchynskyy<br>
+<b>Taxonomy of Dual Block-Coordinate Ascent Methods for Discrete Energy Minimization</b> <br>
+<em>AISTATS 2020</em>. 
+[<a href="../publications/papers/tourani-taxonomy-of-dual-BCA-methods-for-discrete-energy-minimization--AISTATS2020.pdf">pdf</a>]
+[<a href="https://gitlab.com/tourani.siddharth/spam-code">code</a>]
+[<a href="https://slideslive.com/38930203/taxonomy-of-dual-blockcoordinate-ascent-methods-for-discrete-energy-minimization?ref=account-folder-52123-folders">video-presentation at AISTATS 2020</a>]
+</li>
 </ul>
 
-2019:
+
+2019:<br>
+<br>
 <ul>
-  <li>B. Savchynskyy<br>
-  <b>Discrete Graphical Models - An Optimization Perspective</b> <br>
-  <em>Now Publishers 2019</em> [<a href="papers/book-graphical-models.pdf">pdf version</a>] [<a href="papers/book-graphical-models-plain-version.pdf">plain text version</a>]</li>
+<li>
+B. Savchynskyy<br>
+<b>Text-book <a href="https://www.nowpublishers.com/article/Details/CGV-084"> Discrete Graphical Models - An Optimization Perspective</a></b> <br>
+<em>Now Publishers, Special Issue on Foundations and Trends in Computer Graphics and Vision</em>. 
+[<a href="../publications/papers/book-graphical-models.pdf">pdf</a>]
+</li>
 </ul>
 
-2018:
+
+2018:<br>
+<br>
 <ul>
-  <li>Siddharth Tourani, Alexander Shekhovtsov, Bogdan Savchynskyy<br>
-  <b>MPLP++: Parallelizable Approximative Inference for Dense Non-Gaussian Graphical Models</b> <br>
-  <em>ECCV 2018</em> [<a href="papers/tourani-mplp-plus-plus-eccv2018.pdf">pdf</a>] [<a href="papers/tourani-mplp-plus-plus-eccv2018-poster.pdf">poster</a>]</li>
-  <li>Anurag Arnab, S. Jayasumana, S. Zheng, P. Sturgess, B. Savchynskyy, C. Rother, P. Torr<br>
-  <b>Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation</b> <br>
-  <em>IEEE Signal Processing Magazine 2018</em> [<a href="papers/CNN-CRF-Arnab-etal-SPMagazine-2018.pdf">pdf</a>]</li>
+<li>
+S. Tourani, A. Shekhovtsov, C. Rother and B. Savchynskyy<br>
+<b>MPLP++: Fast, Parallel Dual Block-Coordinate Ascent for Dense Graphical Models</b> <br>
+<em>ECCV 2018</em>. 
+[<a href="../publications/papers/tourani-mplp-plus-plus-eccv2018.pdf">pdf</a>]
+[<a href="../publications/papers/tourani-mplp-plus-plus-eccv2018-poster.pdf">poster</a>]
+[<a href=https://hci.iwr.uni-heidelberg.de/vislearn/people/sid/mplppp/>Project page</a>]   
+</li>
+
+
+<li>
+S. Haller, P. Swoboda and B. Savchynskyy<br>
+<b>Exact MAP-Inference by Confining Combinatorial Search with LP Relaxation</b> <br>
+<em>Accepted to AAAI 2018</em>. 
+[<a href="../publications/papers/Dense-CombiLP-Haller-AAAI2017.pdf">pdf</a>]
+[<a href=https://github.com/vislearn/combilp>code</a>]
+[<a href=https://vislearn.github.io/combilp>Project page</a>]   
+</li>
+
+<li>
+A. Arnab*, S. Zheng*, S. Jayasumana, B. Romera-Paredes, M. Larsson, A. Kirillov, B. Savchynskyy, C. Rother, F. Kahl, Philip H. S. Torr<br>
+<b>Conditional Random Fields meet Deep Neural Networks for Semantic Segmentation</b><br>
+<em>Accepted to IEEE Signal Processing Magazine 2018</em>. 
+[<a href="../publications/papers/CNN-CRF-Arnab-etal-SPMagazine-2018.pdf">pdf</a>]   
+</li>
 </ul>
 
-2017:
+2017:<br>
+<br>
 <ul>
-  <li>Stefan Haller, Paul Swoboda, Bogdan Savchynskyy<br>
-  <b>Exact MAP-Inference by Confining Combinatorial Search with LP Relaxation</b> <br>
-  <em>AAAI 2018</em> [<a href="papers/Dense-CombiLP-Haller-AAAI2017.pdf">pdf</a>]</li>
-  <li>Paul Swoboda, Carsten Rother, Hassan Abu Alhaija, Dagmar Kainmueller, Bogdan Savchynskyy<br>
-  <b>A Study of Lagrangean Decompositions and Dual Ascent Solvers for Graph Matching</b> <br>
-  <em>CVPR 2017</em> [<a href="papers/swoboda-graph-matching-cvpr2017.pdf">pdf</a>] [<a href="papers/swoboda-graph-matching-cvpr2017-poster.pdf">poster</a>]</li>
-  <li>Paul Swoboda, Jan Kuske, Bogdan Savchynskyy<br>
-  <b>A Dual Ascent Framework for Partial Optimality in the Symmetric Potts Model</b> <br>
-  <em>CVPR 2017</em> [<a href="papers/swoboda-IRPS-LP-cvpr2017.pdf">pdf</a>] [<a href="papers/swoboda-IRPS-LP-cvpr2017-poster.pdf">poster</a>]</li>
-  <li>F. Michel, A. Kirillov, E. Brachmann, A. Krull, S. Gumhold, B. Savchynskyy, C. Rother<br>
-  <b>Global Hypothesis Generation for 6D Object Pose Estimation</b> <br>
-  <em>CVPR 2017</em> [<a href="papers/Global-Hypothesis-for-6DPose-Michel-CVPR2017.pdf">pdf</a>] [<a href="papers/Michel-Global-Hypothesis-Generation-CVPR-2017-paper.pdf">paper link</a>]</li>
+<li>
+A. Shekhovtsov, P. Swoboda and B. Savchynskyy<br>
+<a href="http://ieeexplore.ieee.org/document/7990201/">Maximum Persistency via Iterative Relaxed Inference with Graphical Models  </a><br>
+<em>PAMI 2017</em>. 
+[<a href="../publications/papers/shekhovtsov-persistence-PAMI2017.pdf">pdf</a>]
+[<a href="http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html" >Project page</a>]   
+</li>
+
+<li>
+P. Swoboda, J. Kuske, B. Savchynskyy<br>
+<strong>A Dual Ascent Framework for Lagrangean Decomposition of Combinatorial Problems  </strong><br>
+<em>CVPR 2017</em>. 
+[<a href="../publications/papers/swoboda-IRPS-LP-cvpr2017.pdf">pdf</a>]
+[<a href="../publications/papers/swoboda-IRPS-LP-cvpr2017-poster.pdf">poster</a>]
+[<a href="https://github.com/pawelswoboda/LP_MP/" >code</a>] 
+</li>
+
+<li>
+P. Swoboda, C. Rother, H. A. Alhaija, D. Kainmueller, B. Savchynskyy<br>
+<strong>A Study of Lagrangean Decompositions and Dual Ascent Solvers for Graph Matching </strong><br>
+<em>CVPR 2017</em>. 
+[<a href="../publications/papers/swoboda-graph-matching-cvpr2017.pdf">pdf</a>]
+[<a href="../publications/papers/swoboda-graph-matching-cvpr2017-poster.pdf">poster</a>]  
+</li>
+
+<li>
+F. Michel, A. Kirillov, E. Brachmann, A. Krull, S. Gumhold, B. Savchynskyy, C. Rother<br>
+<strong>Global Hypothesis Generation for 6D Object Pose Estimation </strong><br>
+<em>CVPR 2017</em>. 
+[<a href="../publications/papers/Michel-Global-Hypothesis-Generation-CVPR-2017-paper.pdf">pdf</a>]
+[<a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation>Project page</a>]
+[<a href="https://www.youtube.com/watch?v=JfwO91B1i_Q">video</a>]
+</li>
+
+<li>
+A. Kirillov, E. Levinkov, B. Andres, B. Savchynskyy, C. Rother<br>
+<strong>InstanceCut: from Edges to Instances with MultiCut  </strong><br>
+<em>CVPR 2017</em>. 
+[<a href="../publications/papers/Kirillov-InstanceCut-From-Edges-CVPR2017-with-supplement.pdf">pdf</a>]  
+</li>
+
 </ul>
 
-2016:
+2016:<br>
+<br>
 <ul>
-  <li>Paul Swoboda, J&ouml;rg H. Kappes, Jan Kuske, Bogdan Savchynskyy<br>
-  <b>Partial Optimality for Discrete Graphical Models</b> <br>
-  <em>IEEE TPAMI 2016</em> [<a href="papers/swoboda-GraphicalModelsPersistency-PAMI2016.pdf">pdf</a>] [<a href="bib/swoboda-GraphicalModelsPersistency-PAMI2016.bib">bib</a>]</li>
-  <li>J&ouml;rg H. Kappes, Paul Swoboda, Jan Kuske, Bogdan Savchynskyy<br>
-  <b>Multicut-Inference on Perturbed Graphs</b> <br>
-  <em>JMIV 2016</em> [<a href="papers/Kappes-perturbed-multicut-JMIV2016.pdf">pdf</a>] [<a href="bib/Kappes-perturbed-multicut-JMIV2016.bib">bib</a>]</li>
-  <li>A. Kirillov, D. Schlesinger, S. Zheng, P. Torr, C. Rother, B. Savchynskyy<br>
-  <b>M-Best Diverse Solutions for Submodular Energy Minimization</b> <br>
-  <em>ACCV 2016</em> [<a href="papers/Kirillov-ACCV2016-CNN-CRF.pdf">pdf</a>]</li>
+<li>
+A. Kirillov, A. Shekhovtsov, C. Rother, B. Savchynskyy<br>
+<strong>Joint M-Best-Diverse Labelings as a Parametric Submodular Minimization</strong><br>
+<em>NIPS 2016</em>. 
+[<a href="../publications/papers/kirillov-nips16-parametric-submodular.pdf">pdf</a>] 
+[<a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models>Project page</a>] 
+</li>
+
+<li>
+A. Kirillov, D. Schlesinger, S. Zheng, B. Savchynskyy, P.H.S. Torr, C. Rother <br>
+<strong>Joint Training of Generic CNN-CRF Models with Stochastic Optimization</strong><br>
+<em>ACCV 2016</em>. 
+[<a href="../publications/papers/Kirillov-ACCV2016-CNN-CRF.pdf">pdf</a>]  
+</li>
+
+<li>
+Kappes, J.H.; Swoboda, P.; Savchynskyy, B.; Hazan, T. and Schn&ouml;rr, C. <br>
+<strong>Multicuts and Perturb & MAP for Probabilistic Graph Clustering. </strong><br>
+<em>In J. Math. Imag. Vision, 2016</em>. 
+[<a href="../publications/papers/Kappes-perturbed-multicut-JMIV2016.pdf">preprint</a>]
+[<a href="../publications/bib/Kappes-perturbed-multicut-JMIV2016.bib">bib</a>]  
+</li>
+
+<li>
+Swoboda, P.; Shekhovtsov, A.; Kappes, J.H.; Schn&ouml;rr, C. and Savchynskyy, B. <br>
+<strong>Partial Optimality by Pruning for MAP-Inference with General Graphical Models. </strong><br>
+<em>In IEEE Trans. Patt. Anal. Mach. Intell., vol. 38, July 2016, pp. 1370-1382</em>. 
+[<a href="../publications/papers/swoboda-GraphicalModelsPersistency-PAMI2016.pdf">preprint</a>]
+[<a href="../publications/bib/swoboda-GraphicalModelsPersistency-PAMI2016.bib">bib</a>]
+[<a href=http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html>Project page</a>]   
+</li>
+
 </ul>
 
-2015:
+
+2015:<br>
+<br>
 <ul>
-  <li>J. H. Kappes, B. Andres, F. A. Hamprecht, C. Schn&ouml;rr, S. Nowozin, D. Batra, S. Kim, B. X. Kausler, J. Lellmann, N. Komodakis, B. Savchynskyy, C. Rother<br>
-  <b>A Comparative Study of Modern Inference Techniques for Structured Discrete Energy Minimization Problems</b> <br>
-  <em>IJCV 2015</em> [<a href="papers/kappes-Benchmark-IJCV2015-preprint.pdf">pdf</a>] [<a href="papers/kappes-Benchmark-IJCV2015-preprint-supplement1.pdf">supp1</a>] [<a href="papers/kappes-Benchmark-IJCV2015-preprint-supplement2.pdf">supp2</a>] [<a href="bib/kappes-Benchmark-IJCV2015-preprint.bib">bib</a>]</li>
-  <li>Alexander Shekhovtsov, Paul Swoboda, Bogdan Savchynskyy<br>
-  <b>Maximum Persistency via Iterative Smoothing</b> <br>
-  <em>CVPR 2015</em> [<a href="papers/shekhovtsov-persistence-cvpr2015.pdf">pdf</a>] [<a href="papers/shekhovtsov-persistence-cvpr2015-extended-abstract.pdf">abstract</a>] [<a href="bib/shekhovtsov-persistency-cvpr2015.bib">bib</a>]</li>
-  <li>A. Kirillov, A. Shekhovtsov, C. Rother, B. Savchynskyy<br>
-  <b>Putting MRFs on a Diet: M-Best Diverse Solutions for Submodular Energies</b> <br>
-  <em>NIPS 2015</em> [<a href="papers/kirillov-nips15-mbest-submodular.pdf">pdf</a>] [<a href="bib/kirillov-nips15-mbest-submodular.bib">bib</a>]</li>
-  <li>A. Kirillov, E. Podkopaev, D. Schlesinger, A. Shekhovtsov, B. Savchynskyy<br>
-  <b>M-Best Diverse Solutions for General MRFs</b> <br>
-  <em>ICCV 2015</em> [<a href="papers/kirillov-iccv15-mbestdiverse.pdf">pdf</a>] [<a href="bib/kirillov-iccv15-mbestdiverse.bib">bib</a>]</li>
-  <li>N. Schertler, B. Savchynskyy, S. Gumhold<br>
-  <b>Topology-Aware Surface Reconstruction</b> <br>
-  <em>Computer Graphics Forum 2015</em> [<a href="papers/schertler-orientation-cgf2015-with-supplement.pdf">pdf</a>] [<a href="bib/schertler-orientation-cgf2015.bib">bib</a>]</li>
+ <li> N. Schertler, B. Savchynskyy, S. Gumhold<br>
+    <strong><a href="http://onlinelibrary.wiley.com/doi/10.1111/cgf.12795/full">Towards Globally Optimal Normal Orientations for Large Point Clouds</a></strong><br>
+    <em>Computer Graphics Forum 2015</em>
+    [<a href="../publications/papers/schertler-orientation-cgf2015-with-supplement.pdf">pdf</a>]
+    <br>
+  </li>
+
+<li>A. Kirillov, D. Schlesinger, D. Vetrov,  C. Rother, B. Savchynskyy <br>
+<strong>M-Best-Diverse Labelings for Submodular Energies and Beyond.<br>
+</strong><em style="font-family: inherit; font-size: inherit; line-height: 1.5;">NIPS 2015</em>
+<span style="font-family: inherit; font-size: inherit; line-height: 1.5;">2015</span>
+[<a href="../publications/papers/kirillov-nips15-mbest-submodular.pdf">pdf with supplementary material</a>]
+[<a href="../publications/bib/kirillov-nips15-mbest-submodular.bib">bib</a>]
+[<a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models>Project page</a>] 
+</li>
+  
+  <li>A. Kirillov,&nbsp;B. Savchynskyy, D. Schlesinger, D. Vetrov,&nbsp;&nbsp;C. Rother<br>
+
+    <strong>Inferring M-Best Diverse Labelings in a Single One.<br>
+    </strong><em style="font-family: inherit; font-size: inherit; line-height: 1.5;">ICCV 2015</em>
+    <span style="font-family: inherit; font-size: inherit; line-height: 1.5;">2015</span> 
+    [<a href="../publications/papers/kirillov-iccv15-mbestdiverse.pdf">pdf with supplementary material</a>]
+    [<a href="../publications/bib/kirillov-iccv15-mbestdiverse.bib">bib</a>]
+    [<a href="https://youtu.be/rWBRrUM4oLA">video spotlight</a>]
+    [<a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models>Project page</a>]    
+    </li>
+     </li>
+  <li>J&ouml;rg H. Kappes, 
+Bjoern Andres, 
+Fred A. Hamprecht, 
+Christoph Schn&ouml;rr, 
+Sebastian Nowozin, 
+Dhruv Batra, 
+Sungwoong Kim, 
+Thorben Kroeger, 
+Bernhard X. Kausler, 
+Jan Lellmann, Nikos Komodakis,
+Bogdan Savchynskyy, 
+Carsten Rother <br>
+    <a href="http://link.springer.com/article/10.1007/s11263-015-0809-x?sa_campaign=email/event/articleAuthor/onlineFirst">
+    <strong>A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problems</strong></a><br><em>IJCV 2015</em> 
+    [<a href="../publications/bib/kappes-Benchmark-IJCV2015-preprint.bib">bib</a>]
+    [<a href="../publications/papers/kappes-Benchmark-IJCV2015-preprint.pdf">preprint</a>]
+  [<a href="../publications/papers/kappes-Benchmark-IJCV2015-preprint-supplement1.pdf">supplementary material 1</a>]
+  [<a href="../publications/papers/kappes-Benchmark-IJCV2015-preprint-supplement2.pdf">supplementary material 2</a>
+  <a href="../../../../../../vislearn/HTML/people/bogdan/publications/papers/shekhovtsov-persistence-cvpr2015.pdf"></a>]
+  </li>
+
+  <li>A. Shekhovtsov, P. Swoboda,&nbsp; B. Savchynskyy <br>
+
+    <strong>Maximum Persistency via Iterative Relaxed Inference with Graphical Models</strong><br>
+    <em>CVPR 2015</em> 
+[<a href="../publications/papers/shekhovtsov-persistence-cvpr2015-extended-abstract.pdf">extended abstract</a>]
+[<a href="../publications/bib/shekhovtsov-persistency-cvpr2015.bib">bib</a>]
+[<a href="../publications/papers/shekhovtsov-persistence-cvpr2015.pdf">pdf with supplementary material</a>] 
+[<a href="../publications/papers/shekhovtsov-persistence-PAMI2017.pdf">revisited journal version</a>]
+[<a href=http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html>Project page</a>]</li>
+<li>J.&nbsp;Kappes, P. Swoboda, B.
+Savchynskyy,&nbsp; T. Hazan, C.&nbsp;Schn&ouml;rr <br>
+
+    <strong>Probabilistic Correlation Clustering and Image Partitioning Using Perturbed Multicuts</strong>
+  <br>
+    <em>SSVM 2015</em> - <span style="font-style: italic;">oral presentation</span> 
+    [<a href="../publications/papers/kappes-ssvm15-multicut-perturb-and-map.pdf">pdf</a>]
+    [<a href="../publications/bib/kappes-ssvm15-multicut-perturb-and-map.bib">bib</a>]
+    [<a href="../publications/papers/Kappes-perturbed-multicut-JMIV2016.pdf">extended journal version, accepted to JMIV</a>]
+    </li>
+
+<br>
 </ul>
 
-2014:
+2014:<br>
 <ul>
-  <li>P. Swoboda, J. H. Kappes, J. Kuske, B. Savchynskyy<br>
-  <b>Partial Optimality for Discrete Graphical Models</b> <br>
-  <em>CVPR 2014</em> [<a href="papers/swoboda-GraphicalModelsPersistency-with-Supplement-cvpr2014.pdf">pdf</a>] [<a href="papers/swoboda-GraphicalModelsPersistency-cvpr2014-slides.pdf">slides</a>] [<a href="bib/swoboda-GraphicalModelsPersistency-with-Supplement-cvpr2014.bib">bib</a>]</li>
+
+<li> P. Swoboda, B. Savchynskyy, J.&nbsp;Kappes, C.&nbsp;Schn&ouml;rr<br>
+<strong>Partial Optimality by Pruning for MAP-inference with
+General Graphical Models</strong><br>
+<em>CVPR-2014</em> - <em>oral presentation</em> and it has got <a href="http://www.pamitc.org/cvpr14/awards.php">The Best Student Paper
+Award</a><br>
+[<a href="../publications/bib/swoboda-GraphicalModelsPersistency-with-Supplement-cvpr2014.bib">bib</a>]
+[<a href="../publications/papers/swoboda-GraphicalModelsPersistency-with-Supplement-cvpr2014.pdf">pdf</a>]
+[<a href="../publications/papers/swoboda-GraphicalModelsPersistency-cvpr2014-slides.pdf">presentation-pdf</a>]
+[<a href="../publications/papers/swoboda-GraphicalModelsPersistency-PAMI2016.pdf">Extended and revisited journal version, accepted to PAMI </a>]
+[<a href=http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html>Project page</a>]
+<br>
+</li>
+
+<li> B. Savchynskyy, S. Schmidt<br>
+<strong>Getting Feasible Variable Estimates From Infeasible Ones:
+MRF Local Polytope Study.</strong><br>
+In <em>Advanced Structured Prediction, MIT Press, 2014 </em>
+[<a href="../publications/bib/savchynskyy-optprojection-MITvolume-2014.bib">bib</a>] 
+[<a href="../publications/papers/savchynskyy-optprojection-MITvolume-2014.pdf">pdf</a>]
+<br>
+The code is available in <a href=http://hciweb2.iwr.uni-heidelberg.de/opengm/>OpenGM library</a>  
+(inference class <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/auxiliary/primal_lpbound.hxx">PrimalLPBound</a>
+) </li></ul>2013:<br>
+<ul>
+
+  <li> B. Savchynskyy, S. Schmidt<br>
+<strong>Getting Feasible Variable Estimates From Infeasible Ones:
+MRF Local Polytope Study.</strong><br>
+In <em>Workshop on Inference for Probabilistic Graphical Models at
+ICCV 2013</em> [<a href="../publications/bib/savchynskyy-optprojection-iccv2013-workshop.bib">bib</a>] [<a href="../publications/papers/savchynskyy-optprojection-iccv2013-workshop.pdf">pdf</a>]
+[<a href="../publications/papers/savchynskyy-optprojection-iccv2013-workshop-poster.pdf">poster-pdf</a>]
+<br>
+The code is available in <a href=http://hciweb2.iwr.uni-heidelberg.de/opengm/>OpenGM library</a>
+(inference class <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/auxiliary/primal_lpbound.hxx">PrimalLPBound</a>
+) </li>
+
+<li>B. Savchynskyy, J.&nbsp;Kappes, P. Swoboda, C.&nbsp;Schn&ouml;rr<br>
+<strong>Global MAP-Optimality by Shrinking the Combinatorial
+Search Area with Convex Relaxation</strong><br>
+<span style="font-style: italic;">NIPS</span><em>-2013</em><em></em><br>
+[<a href="../publications/bib/savchynskyy-combilp-nips2013.bib">bib</a>] [<a href="../publications/papers/savchynskyy-combilp-nips2013.pdf">pdf</a>]
+[<a href="../publications/papers/savchynskyy-combilp-Cambridge2014-presentation.pdf">presentation-pdf</a>]
+[<a href="../publications/papers/savchynskyy-combilp-nips2013-poster.pdf">poster-pdf</a>]
+[<a href=https://vislearn.github.io/combilp>Project page</a>] 
+&nbsp; <br>
+The code is available in <<a href=http://hciweb2.iwr.uni-heidelberg.de/opengm/>OpenGM library</a>
+(inference class <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/combilp.hxx">CombiLP</a>
+) </li>
+<li> P. Swoboda, B. Savchynskyy, J.&nbsp;Kappes, C.&nbsp;Schn&ouml;rr<br>
+<strong>Partial optimality via iterative pruning for the Potts model</strong><br>
+<em>SSVM-2013, pp.477-488</em> - <em>oral presentation</em><br>
+[<a href="../publications/bib/swoboda-PersistencyPotts-ssvm2013.bib">bib</a>] [<a href="../publications/papers/swoboda-PersistencyPotts-ssvm2013.pdf">pdf</a>]
+[<a href="../publications/papers/swoboda-PersistencyPotts-ssvm2013-presentation.pdf">presentation-pdf</a>]&nbsp;
+[<a href=http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html>Project page</a>]
+</li>
+</ul>
+2012:<br>
+<ul>
+
+<li> B. Savchynskyy, S. Schmidt, J. H. Kappes, C. Schn&ouml;rr<br>
+<strong>Efficient MRF Energy Minimization via Adaptive Diminishing
+Smoothing</strong><br>
+<em>In UAI, 2012, pp. 746-755.</em> [<a href="../publications/bib/savchynskyyUAI2012DiminishingSmoothing.bib">bib</a>] [<a href="../publications/papers/savchynskyyUAI2012DiminishingSmoothing.pdf">PDF (revised
+version with appendix)</a>][<a href="../publications/papers/savchynskyyUAI2012poster.pdf">UAI Poster</a> with
+additional comparison
+to <a href="http://ttic.uchicago.edu/%7Emeshi/papers/ADLP.pdf"> ADLP</a>
+algorithm] <br>
+The code is available in <a href=http://hciweb2.iwr.uni-heidelberg.de/opengm/>OpenGM library</a>
+(inference class <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/trws/trws_adsal.hxx">ADSal</a>)
+<br>
+</li>
+  <li> J. H. Kappes, B. Savchynskyy, C. Schn&ouml;rr<br>
+<strong>A Bundle Approach To Efficient MAP-Inference by Lagrangian
+Relaxation </strong><br>
+<em>In CVPR, 2012</em> [<a href="../publications/bib/kappes-cvpr2012-bundle-corrected.bib">bib</a>]
+[<a href="../publications/papers/kappes-cvpr2012-bundle-corrected.pdf">pdf</a>]&nbsp; <br> 
+The code is available in <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/dualdecomposition/dualdecomposition_bundle.hxx">OpenGM library</a></li>
+</ul>
+2011:<br>
+<ul>
+
+<li> S. Schmidt, B. Savchynskyy, J. H. Kappes, C. Schn&ouml;rr<br>
+<strong>Evaluation of a First-Order Primal-Dual Algorithm for MRF
+Energy Minimization </strong><br>
+<em>In EMMCVPR, 2011, pp.89-103.</em> [<a href="../publications/papers/Schmidt-Savchynskyy-Kappes-Schnoerr-EMMCVPR-2011.pdf">pdf</a>][<a href="../publications/bib/Schmidt-Savchynskyy-Kappes-Schnoerr-EMMCVPR-2011.bib">bib</a>]<br>
+</li>
+  <li> B. Savchynskyy, J. H. Kappes, S. Schmidt, C. Schn&ouml;rr<br>
+<strong>A Study of Nesterov's Scheme for Lagrangian Decomposition
+and MAP Labeling </strong><br>
+<em>In CVPR 2011 </em> - <em>oral presentation</em><br>
+[<a href="../publications/bib/savchynskyyCVPR2011Nesterov.bib">bib</a>][<a href="../publications/papers/savchynskyy_11_study_supplement.pdf">PDF
+with supplementary material</a>][<a href="../publications/papers/Savchynskyy_Kiev2010_Nesterov.pdf">Presentation (pdf)</a> at <a href="http://www.irtc.org.ua/image/pages/konchazaspa">the Graphical
+Model Workshop in Kiev, Sep.-Oct.2010</a> and <a href="../publications/papers/savchynskyy-CVPR2011-presentation.pdf">at CVPR2011</a>] <br>The code is available in <a href="https://github.com/opengm/opengm/blob/master/include/opengm/inference/trws/smooth_nesterov.hxx">OpenGM library</a>
+
+(inference class <span style="font-weight: bold;">NesterovAcceleratedGradient)</span>
+      </li>
+</ul>
+2009 and before:<br>
+<ul>
+
+<li> Savchynskyy B.D., Olefirenko S.A.<br>
+<strong>Estimation of character template sizes for OCR</strong><br>
+<em>Collection
+of scientific works of International Research and Training Center of
+Information Technologies and Systems NAS and MES Ukraine. Perspective
+technologies of education and education spaces. Kyiv: IRTC ITS,
+2009.-Num.2.-Pp.24-45</em> [<a href="../publications/papers/Olefirenko_widthtuning-grindeq-2009.ru.pdf">pdf</a>
+(in Russian)][<a href="../publications/papers/Olefirenko_widthtuning-grindeq-2009.ru.PRESENTATION.pdf">pdf</a>
+(Presentation in English)][<a href="../publications/bib/Olefirenko_widthtuning-grindeq-2009.ru.bib">bib</a>]</li>
+<li>Sdobnikov V., Savchynskyy B.<br>
+<strong>Vanishing points detection in city block images</strong><br>
+<em>Proceedings of the 9-th all-ukrainian international conference
+UkrOBRAZ'2008 </em> Kiev, Nov. 3-7 2008, pp. 123-126 [<a href="../publications/papers/sdobnikov_OK08VPDetection_ukrObraz2008.ua.pdf">pdf</a>
+(Ukrainian)] </li>
+<li> Bogdan Savchynskyy, Vojtěch Franc<br>
+<strong>Discriminative Learning of Max-Sum Classifiers</strong><br>
+<em><a href="http://jmlr.csail.mit.edu/">Journal of Machine
+Learning Research</a>, 9(Jan):67--104, 2008, <a href="http://www.mtome.com/">Microtome Publishing</a></em> <a href="http://www.jmlr.org/papers/volume9/franc08a/franc08a.pdf">[pdf]</a><a href="../publications/bib/franc-savchynskyy-jmlr08a-discriminative-training-of-MRFs.bib">[bib]</a> <br>
+</li>
+<li> Savchynskyy B.D., Olefirenko S.A.<br>
+<strong>Partially supervised learning for text recognition problem</strong><br>
+<em>Control Systems and Computers</em>, 2007(1), Kiev, pp.19-29 [<a href="../publications/papers/partially_sl_text-olefirenko-savshynskyy_csc2007.en.pdf">pdf</a>
+(English)][<a href="../publications/papers/partially_sl_text-olefirenko-savshynskyy_csc2007.ru.pdf">pdf</a>
+(Russian)][<a href="../publications/papers/partially_sl_text-olefirenko-savshynskyy_csc2007.ua.pdf">pdf</a>
+(Ukrainian)][<a href="../publications/bib/partially_sl_text-olefirenko-savshynskyy_csc2007.en.bib">bib</a>]<br>
+</li>
+<li>Bogdan Savchynskyy, Olexander Kamotskyy <br>
+<strong> Character templates learning for textual images
+recognition as an example of learning in structural recognition </strong>
+<br>
+<em>Proc. of the Intern. </em><em>Conf. on Document Image Analysis
+for Libraries DIAL, 2006, Lyon, pp.88-95, IEEE Press </em><em></em> [<a href="../publications/papers/savchynskyyDIAL06-OCRlearning.pdf">pdf</a>][<a href="../publications/bib/savchynskyyDIAL06-OCRlearning.bib">bib</a>]</li>
+<li>Savchynskyy B.D., Kamotskyy O.V.<br>
+<strong>Tuning of a text recognition algorithm</strong><br>
+<em>Control Systems and Computers</em>, 2005(2), Kiev, pp.17-24 [<a href="../publications/papers/tuningOCR-savchynskyy-kamotsky-csc2005.ua.pdf">pdf</a>
+(Ukrainian)][<a href="../publications/papers/tuningOCR-savchynskyy-kamotsky-csc2005.ru.pdf">pdf</a>
+(Russian)] </li>
+<li>Savchynskyy B.D. Pavlyuk O.V.<br>
+<strong>Effective parsing and recognition of structured images</strong><br>
+<em>Control Systems and Computers</em>, 2005(5), Kiev, pp.13-24<em></em><em></em>
+[<a href="../publications/papers/flats-anokhina-savchynskyy-csc2005.ua.pdf">pdf</a>
+(Ukrainian)][<a href="../publications/bib/flats-anokhina-savchynskyy-csc2005.ua.bib">bib</a>]<em></em><br>
+</li>
+<li>Savchynskyy B.D.<br>
+<strong>Non-traditional Tasks of an Optical Text Recognition in the
+Framework of Bayesian Theory of Statistical Decisions</strong><br>
+<em>Control Systems and Computers</em>, 2003(4), Kiev, pp.8-21 <em></em><em></em>
+[<a href="../publications/papers/BayesOCR-savchynskyy-csc2003.ua.pdf">pdf</a>
+(Ukrainian)] <em></em><em></em> [<a href="../publications/papers/BayesOCR-savchynskyy-csc2003.ru.pdf">pdf</a> (Russian)]</li>
+<li>Schlesinger M.I., Savchynskyy B.D., Anokhina M.O. <br>
+<strong>Parsing and recognition of printed notes </strong> <br>
+<em>Control Systems and
+Computers</em>, 2003(4), Kiev, pp.30-38 <em></em><em></em> [<a href="../publications/papers/musicScores-savchynskyy-csc2003.pdf">pdf</a> (English
+preprint)]<em></em><em></em> [<a href="../publications/papers/musicScores-savchynskyy-csc2003.ua.pdf">pdf</a>
+(Ukrainian)] <em></em><em></em> [<a href="../publications/papers/musicScores-savchynskyy-csc2003.ru.pdf">pdf</a>
+(Russian)][<a href="../publications/bib/musicScores-savchynskyy-csc2003.bib">bib</a>]</li>
+<li>Schlesinger M.I., Savchynskyy B.D., Anokhina M.O.<br>
+<strong>Computer technology for printed notes recognition</strong><br>
+<em>Proc. of Inter. Conf. "Electronic Images and Visual Arts" EVA
+2002</em>, Kiev, 2002, pp.82-86 [<a href="../publications/papers/MusicScores-savchynskyy-eva2002.pdf">pdf</a> (Ukrainian)]</li>
+<li>Savchynskyy B.<br>
+<strong>Comparative analysis of stereovision algorithms in the
+framework of Bayes statistical decision theory</strong><br>
+<em>Proceedings of the fifth all-ukrainian international conference
+UkrOBRAZ2000</em>, Kiev, nov. 27-dec.1, 2000 <em></em><em></em> [<a href="../publications/papers/savchynskyy-stereo-ukrobraz2000-all.pdf">pdf</a>
+(Ukrainian)][<a href="../publications/bib/savchynskyy-stereo-ukrobraz2000-all.bib">bib</a>]</li>
 </ul>
 
-2013:
-<ul>
-  <li>B. Savchynskyy, S. Schmidt, J. H. Kappes, C. Schn&ouml;rr<br>
-  <b>Efficient MRF Energy Minimization via Dual Decomposition and Iterative Smoothing</b> <br>
-  <em>MIT Press Volume 2014</em> [<a href="papers/savchynskyy-optprojection-MITvolume-2014.pdf">pdf</a>] [<a href="bib/savchynskyy-optprojection-MITvolume-2014.bib">bib</a>]</li>
-  <li>B. Savchynskyy, J. H. Kappes, S. Schmidt, C. Schn&ouml;rr<br>
-  <b>A Primal-Dual Around Nesterov’s Accelerated Gradient Method</b> <br>
-  <em>NIPS 2013</em> [<a href="papers/savchynskyy-combilp-nips2013.pdf">pdf</a>] [<a href="papers/savchynskyy-combilp-nips2013-poster.pdf">poster</a>] [<a href="papers/savchynskyy-combilp-Cambridge2014-presentation.pdf">presentation</a>] [<a href="bib/savchynskyy-combilp-nips2013.bib">bib</a>]</li>
-</ul>
 
-Older Selected Works:
-<ul>
-  <li>B. Savchynskyy, S. Schmidt <br> 
-  <b>Getting Flatness Fast: Diminishing Smoothing for Decomposition Methods</b> <br>
-  <em>UAI 2012</em> [<a href="papers/savchynskyyUAI2012DiminishingSmoothing.pdf">pdf</a>] [<a href="papers/savchynskyyUAI2012poster.pdf">poster</a>] [<a href="bib/savchynskyyUAI2012DiminishingSmoothing.bib">bib</a>]</li>
-  <li>B. Savchynskyy, S. Schmidt, J. H. Kappes, C. Schn&ouml;rr <br> 
-  <b>Efficient MRF Energy Minimization via Adaptive Smoothing</b> <br>
-  <em>CVPR 2011</em> [<a href="papers/savchynskyy_11_study_supplement.pdf">pdf</a>] [<a href="papers/savchynskyy-CVPR2011-presentation.pdf">presentation</a>] [<a href="bib/savchynskyyCVPR2011Nesterov.bib">bib</a>]</li>
-  <li>M. I. Schlesinger, B. Savchynskyy, M. O. Anokhina<br>
-  <b>Printed Notes Recognition Computer Technology</b><br>
-  <em>EVA 2002</em> [<a href="papers/MusicScores-savchynskyy-eva2002.pdf">pdf</a>] [<a href="bib/musicScores-savchynskyy-csc2003.bib">bib</a>]</li>
-  <li>B. Savchynskyy<br>
-  <b>Stereovision Algorithms via Bayes Statistical Decision Theory</b><br>
-  <em>UkrOBRAZ 2000</em> [<a href="papers/savchynskyy-stereo-ukrobraz2000-all.pdf">pdf</a>]</li>
-</ul>
+<p>My publications till 2009 are available also <a href="http://www.irtc.org.ua/image/people/bogdan">here</a>.</p>
+
+
+
+
+
 </body></html>

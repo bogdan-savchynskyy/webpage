@@ -1,53 +1,91 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>projects</title></head><body>
-<a href="../index.html">&lt;- back to the main page of Dr. Bogdan Savchynskyy</a><br>
 
-<h1>Current Research Projects</h1>
+<?php
+$POPTpage = "http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html";
+?>
 
-<span style="font-weight: bold;">Computer Vision and Learning Applications:</span>
-<ul>
-  <li> <a href="worm-project/worm-project.html">Unsupervised Deep Multi-Graph Matching and Cycle-Consistency for Atlas-to-Worm Annotation</a> </li>
-  <li> Cell Tracking by Assignment &amp; Graph Matching 
-[<a href="https://vislearn.github.io/libct/">code &amp; project page</a>] </li>
-  <li> 3D Pose Estimation for Rigid Objects
-[<a href="https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation">project page</a>] </li>
-</ul>
+<?php
+$CombiLPcode = "https://github.com/vislearn/combilp";
+?>
 
-<span style="font-weight: bold;">Scalable Exact and Approximate Inference for Graphical Models and Beyond:</span> 
+<?php
+$CombiLPpage = "https://vislearn.github.io/combilp"; 
+?>
+
+<?php
+$Pose6DPage = "https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation";
+?>
+
+<?php
+$DiversityPage = "https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models";
+?>
+
+<?php
+$OpenGMPage = "http://hciweb2.iwr.uni-heidelberg.de/opengm/";
+?>
+ 
+<?php
+$knIRPScode = "https://github.com/pawelswoboda/LP_MP/";
+?>
+
+<?php
+$MPLPproject = "https://hci.iwr.uni-heidelberg.de/vislearn/people/sid/mplppp/";
+?>
+ 
+<?php
+$CellTrackingproject = "https://vislearn.github.io/libct/";
+?>
+
+<?php
+$FusionMovesproject = "https://vislearn.github.io/libmpopt/iccv2021";
+?> 
+
+<?php
+$GraphMatchingBenchmarkproject = "https://vislearn.github.io/gmbench/";
+?>
+
+<?php
+$MWISproject = "https://vislearn.github.io/libmpopt/mwis2024/";
+?>
+
+ 
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>projects</title></head><body>
+<a href="../Dr-Bogdan-Savchynskyy.html">&lt;- back to the main page of Dr. Bogdan Savchynskyy</a><br>
+
+
+<h1>Running Projects</h1>
+
+<ul> 
+<li> <a href="../projects/worm-project/">“The Worm” – Unsupervised multi-matching for bio-informatics</a></li>
+<li> <a href=https://vislearn.github.io/libmpopt/mwis2024/>Scalable max-weight independent set solver</a> </li>   
+<li> <a href=https://vislearn.github.io/gmbench/>Graph matching benchmark</a> </li>   
+<li> <a href=https://vislearn.github.io/libmpopt/iccv2021>Scalable and learnable graph matching solver</a> </li>  
+</ul> 
+
+<h1>Old Projects</h1>
+
+<ul> 
+<li> <a href=https://vislearn.github.io/libct/>Scalable and learnable cell tracking in microscopic images</a> </li>  
+<li> <a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation>6D Object Pose Estimation</a> </li>  
+<li>  <a href=https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models>Multiple Diverse Solutions in Combinatorial Optimization</a> </li>
+<li>  <span style="text-decoration: underline;">Scalable Exact and Approximate Inference for Graphical Models and Beyond:</span> </li>
 <ul>
   <li> Taxonomy of dual block-coordinate ascent methods for MAP-inference in discrete graphical models 
 [<a href="../publications/papers/tourani-taxonomy-of-dual-BCA-methods-for-discrete-energy-minimization--AISTATS2020.pdf">pdf</a>]
 [<a href="https://gitlab.com/tourani.siddharth/spam-code">code</a>]
 [<a href="https://slideslive.com/38930203/taxonomy-of-dual-blockcoordinate-ascent-methods-for-discrete-energy-minimization?ref=account-folder-52123-folders">video-presentation at AISTATS 2020</a>]
   </li>
-  <li> <a href="https://vislearn.github.io/combilp">Exact MAP-Inference by Confining Combinatorial Search with LP Relaxation</a>  </li>
-  <li> <a href="https://hci.iwr.uni-heidelberg.de/vislearn/people/sid/mplppp/">Parallelizable Approximative Inference for Dense Non-Gaussian Graphical Models </a>  </li>
+  <li> <a href=https://vislearn.github.io/combilp>Exact MAP-Inference by Confining Combinatorial Search with LP Relaxation</a>  </li>
+  <li> <a href=https://hci.iwr.uni-heidelberg.de/vislearn/people/sid/mplppp/>Parallelizable Approximative Inference for Dense Non-Gaussian Graphical Models </a>  </li>
   <li> knIRPS: Efficient Block-Coordinate Ascent Inference Beyond Graphical Models 
        [<a href="https://github.com/pawelswoboda/LP_MP/" >code</a>] 
        [<a href="../publications/papers/swoboda-IRPS-LP-cvpr2017.pdf">paper</a>]
        [<a href="../publications/papers/swoboda-IRPS-LP-cvpr2017-poster.pdf">poster</a>] 
   </li>
-  <li> Fusion Moves for Graph Matching
-       [<a href="https://vislearn.github.io/libmpopt/iccv2021">code &amp; project page</a>] 
-       [<a href="../publications/papers/hutschenreiter-fusion-moves-iccv2021.pdf">paper</a>]
-       [<a href="../publications/papers/hutschenreiter-Fusion-Moves-poster-ICCV2021.pdf">poster</a>] 
-       [<a href="../publications/papers/hutschenreiter-Fusion-Moves-presentation-ICCV2021.pdf">presentation video</a>] 
-  </li>
-  <li> Graph Matching Benchmark
-       [<a href="https://vislearn.github.io/gmbench/">project page</a>]
-       [<a href="../publications/papers/Haller-eccv2022-comparative-study-of-GM-in-CV.pdf">paper</a>]
-  </li>
-  <li> Multi-Graph Matching by Max-Weight Independent Set Solver
-       [<a href="https://vislearn.github.io/libmpopt/mwis2025/">project page</a>]
-       [<a href="../publications/papers/haller-bregman-sinkhorn-for-MWIS-2408.02086v2.pdf">preprint</a>]
-  </li>
-  <li> Multi-graph matching via Cycle-Consistency &amp; Partial Optimality
-       [<a href="https://vislearn.github.io/libmpopt/popt2025/">project page</a>]
-       [<a href="../publications/papers/Kahl-et-al-unlocking-OR-for-MGM-ArXiv2024.pdf">preprint</a>]
-  </li>
-  <li> <a href="https://hci.iwr.uni-heidelberg.de/vislearn/research/optimization/diverse-solutions-to-graphical-models">Diverse Solutions to Graphical Models</a> </li>
-  <li> <a href="http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html">Partial Optimality (Persistency) for Discrete Graphical Models</a> </li>
-  <li> <a href="http://hciweb2.iwr.uni-heidelberg.de/opengm/">OpenGM Project: A Benchmark for Discrete Graphical Models</a> </li>
-</ul>
+  <li><a href="http://cmp.felk.cvut.cz/~shekhovt/persistency/index.html" >Maximum Persistency in Energy Minimization</a> </li>
+  <li><a href="http://hciweb2.iwr.uni-heidelberg.de/opengm/" >OpenGM Library and Benchmark for Discrete Energy Minimization</a> </li>
+ </ul>
+ </ul>
+
 </body></html>
